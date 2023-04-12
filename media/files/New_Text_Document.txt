@@ -1,0 +1,41 @@
+step 1:
+=======
+
+c: xilinx -> 14.5 -> ISE_DS -> ISE -> lib -> nt64 -> search for -> libPortability.dll -> rename the libPortability.dll to libPortability.dll.orig 
+       
+     -> search for -> libPortabilityNOSH.dll -> and copy libPortabilityNOSH.dll -> Paste there itself -> after pasting it seems to be like libPortabilityNOSH-copy.dll
+   
+     -> rename the libPortabilityNOSH-copy.dll to libPortability.dll
+
+
+
+step 2:
+========
+
+c: xilinx -> 14.5 -> ISE_DS -> common -> lib -> nt64 -> Paste there itself (what u have prevoiusly copied - libPortabilityNOSH.dll) 
+     
+     -> search for -> libPortability.dll -> rename the libPortability.dll to libPortability.dll.orig
+
+     -> search for libPortabilityNOSH.dll -> rename the libPortabilityNOSH.dll to libPortability.dll
+
+
+step 3:
+=========
+ 
+   launch the application
+
+
+step 4:
+=======
+
+xilinx license configuration manager
+======================================
+
+ -> help 
+ -> manage license
+ -> get my purchased lincense
+ -> click on copy license 
+ -> Go to the xilinx software folder where u have downloaded
+ -> crack
+ -> xilinx_ise.lic
+ -> upload it
