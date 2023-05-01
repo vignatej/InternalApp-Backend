@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'placementStories.apps.PlacementstoriesConfig',
     'users.apps.UsersConfig',
     'events.apps.EventsConfig',
+    # 'exam.apps.ExamConfig',
     'classroom.apps.ClassroomConfig',
     'rest_framework',
     'corsheaders',

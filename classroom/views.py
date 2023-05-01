@@ -55,6 +55,8 @@ def addPost(request):
         description = request.data["description"],
         created_by = request.user.profile
     )
+    if len(request.data["description"])==0 and len(request.FILES.keys())==0:
+        return Response("cant done")
     newPost.save()
     if(request.FILES):
         fil = request.FILES.keys()

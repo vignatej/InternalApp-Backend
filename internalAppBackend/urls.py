@@ -15,5 +15,6 @@ urlpatterns = [
     path('chat/', include('chat.urls')),
     path('events/',include('events.urls')),
     path("classroom/", include('classroom.urls')),
+    # path("exam/", include('exam.urls')),
 ]
 urlpatterns += static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)
