@@ -1,1 +1,1 @@
-web: gunicorn internalAppBackend.wsgi --log-file -
+web: gunicorn internalAppBackend.asgi --log-file -
